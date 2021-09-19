@@ -513,3 +513,36 @@ Reservation Page
     font-size: 26px;
     text-align: center;
 }
+/* --------------------------------------------------------
+Log In Page
+-----------------------------------------------------------*/
+.divider-text{
+    position: relative;
+    text-align: center;
+    margin-top: 15 px;
+    margin-bottom: 15 px;
+}
+.divider-text span{
+    padding: 7px;
+    font-size: 12 px;
+    position: relative;
+    z-index: 2;
+}
+.divider-text:after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    border-bottom: 1px solid #ddd;
+    top: 55%;
+    left: 0;
+    z-index: 1;
+}
+
+.btn-facebook{
+    background-color: #405D9D!important;
+    color: #fff! important;
+}
+.btn-gmail{
+    background-color: #ea4335!important;
+    color: #fff! important;   
+}
