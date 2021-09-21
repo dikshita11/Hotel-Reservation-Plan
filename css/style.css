@@ -44,6 +44,70 @@ Header
 /* --------------------------------------------------------
 Footer
 -----------------------------------------------------------*/
+.tm-footer{
+     background: #211f17;
+    display: block;
+    padding: 20px;
+    position: relative;
+
+}
+
+.tm-us{
+    display: inline-table;
+    max-width: 30%;
+    width: 30%;
+    margin: 2% 0 2% 4%
+}
+
+.tm-address{
+    display: inline-table;
+    max-width: 30%;
+    width: 30%;
+     margin: 2% 0 2% 25%
+}
+
+.tm-us .bold, .tm-address .bold{
+    color: #ec3c6a;
+    font-size: 1.5vw;
+    font-weight: 700;
+    padding-bottom: 4%;
+}
+
+.tm-us p, .tm-address p{
+    color: #fff;
+    font-size: 1.2vw;
+}
+
+.tm-media{
+   display: inline;
+    margin: 0 0 0 59%;
+ 
+
+}
+.tm-media img{
+  margin: 0.5%;
+    width: 3%;
+    height: auto;
+    
+}
+
+.tm-up
+{
+    position: absolute;
+    top: 20%;
+    right: 3%;
+    width: 3%;
+    height: auto;
+    
+}
+
+.tm-review:focus{
+    outline: none;
+}
+
+.tm-revcon:focus{
+    outline: none;
+}
 .footer_bottom{
     background: #222222;
     padding: 15px 0;
@@ -120,10 +184,6 @@ Footer
   top: 1px;
     color: #fff;
 }
-
-
-
-
 
 
 /* --------------------------------------------------------
